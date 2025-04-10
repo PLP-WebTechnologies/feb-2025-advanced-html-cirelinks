@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multimedia Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    form {
+      margin-bottom: 30px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 65%;
+      height: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      margin-bottom: 20px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    audio {
+      display: block;
+      margin-bottom: 20px;
+    }
+    iframe {
+      margin-bottom: 20px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>schizo thing</h1>
+
+  <h2>Sample Image</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="Sample Image">
+
+  <h2>Sample Audio</h2>
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>coke</h2>
+  <iframe width="640" height="360"
+          src="https://www.youtube.com/embed/VGa1imApfdg"
+          title="greatest drink ever"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+  </iframe>
+
+  <h2>Registration Form</h2>
+  <form>
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname" required><br><br>
+
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+
+  <h2>Sample Table</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Role</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>mercy wangui</td>
+      <td>Manager</td>
+      <td>mw@gmail.com</td>
+    </tr>
+    <tr>
+      <td>ngari peter</td>
+      <td>Developer</td>
+      <td>ngari@gmail.com</td>
+    </tr>
+  </table>
+
+  <h2>Our Services</h2>
+  <ul>
+    <li>Web Development</li>
+    <li>Mobile App Design</li>
+    <li>Digital Marketing</li>
+    <li>SEO Optimization</li>
+  </ul>
+
+</body>
+</html>
